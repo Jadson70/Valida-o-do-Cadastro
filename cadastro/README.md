@@ -19,7 +19,7 @@ Os três arquivos precisam ficar na mesma pasta para a página funcionar direito
 ## Como abrir o projeto
 1. Abra a pasta do projeto no VS Code.
 2. Clique com o botão direito no `cadastro.html`.
-3. Escolha "Open with Live Server".
+3. Escolha "Open with Live server"
 
 ## O que a gente fez
 Quando a pessoa clica em Cadastrar, o evento `submit` do formulário é capturado e usamos o `preventDefault` para a página não recarregar. Depois o código lê o que foi digitado em cada campo (nome, e-mail e nome do projeto) e confere se está tudo certo.
